@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .abc{
+            text-align: center;
+            text-decoration: underline;
+            color: red;
+        }
+        .ab1{
+            background-color: rgb(240, 240, 240);
+            padding: 10px;
+        }
+        .form{
+            display: flex;
+            gap: 50px;
+            margin-bottom: 8px;
+
+        }
+        .form label {
+             display: flex;
+             align-items: center;
+             min-width: 100px;
+        }
+        .for{
+            display: flex;
+            /* align-items: center; */
+            gap: 50px;
+            padding-bottom: 5px;
+        }
+        #a{
+            height: auto;
+            width: 500px;
+            margin-left: 150px;
+        }
+        button{
+            background-color: rgb(85, 218, 85);
+            padding: 10px;
+            border-radius: 3px;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="abc"><h2>Student Registration Form</h2></div>
+     <div class="ab1">
+
+        <form action="">      
+            <div class="form">
+             <label for="">First Name :</label>
+             <input type="text" name="" id="a" placeholder="Enter Your First name"><br><br>
+            </div>
+
+            <div class="form">
+             <label for="">Last Name :</label>
+             <input type="text" name="" id="a" placeholder="Enter Your Last name"><br><br>
+            </div>
+
+            <div class="form">
+             <label for="">Email :</label>
+             <input type="email" name="" id="a" placeholder="It Should Contain @..."><br><br>
+            </div>
+
+            <div class="form">
+             <label for="">Mobile No :</label>
+             <input type="text" name="" id="a" placeholder="only 10 digits are allowd" maxlength="10"><br><br>
+            </div>
+
+            <div class="for">
+             <label for="">Gender :</label>
+             <div style="margin-left: 190px; display: flex;">
+                <div><input type="radio" name="a" id="">Male</div>
+                <div><input type="radio" name="a" id="">Female</div>
+             </div>
+             
+            </div>
+
+            <div class="form">
+             <label for="">Date Of Birth :</label>
+             <input type="date" name="" id="a" placeholder=""><br><br>
+             </div>
+
+            <div class="form">
+             <label for="">Address :</label>
+             <textarea type="" name="" id="a" cols="20" rows="5"></textarea><br><br>
+             </div>
+
+            <div class="form">
+             <label for="">City :</label>
+             <input type="text" name="" id="a"><br><br>
+            </div> 
+    
+            <div class="form">
+             <label for="">Area PIN :</label>
+             <input type="text" name="" id="a"><br><br>
+            </div>
+
+            <div class="form">
+             <label for="">State :</label>
+             <input type="text" name="" id="a"><br><br>
+            </div>
+
+            <div class="form">
+             <label for="">Qualification :</label>
+             <select name="" id="a">
+                 <option value="">Class X</option>
+                 <option value="">Class XII</option>
+                 <option value="">Graduation</option>
+                 <option value="">Masters</option>
+             </select><br><br>
+            </div>
+    
+            <div class="for">
+             <label for="">Specialization :</label>
+                <div style="margin-left: 150px;">
+                    <div>
+                        <input type="checkbox" name="" id="">Computer Science      
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="">Information Technology 
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="">Computer Architecture
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="">Tele Communication
+                    </div>
+                </div>
+            </div>
+    
+            <div class="form">
+             <label for="">Password :</label>
+             <input type="text" name="" id="a"><br><br>  
+            </div>
+
+            <a href=""><button>Registerd</button></a>
+        </form>
+     </div>
+    </div>
+</body>
+</html>
